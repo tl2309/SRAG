@@ -2,7 +2,7 @@
 
 **SRAG pipeline**
 <div align="center">
-  <img src="./assets/pipline.png" width="65%" height="65%"/>
+  <img src="./assets/pipeline.png" width="65%" height="65%"/>
 </div>
 
 **SRAG Paper:** 
