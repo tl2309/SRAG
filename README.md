@@ -8,6 +8,10 @@ This repository contains code for our paper. We propose Structured RAG (SRAG) �
   <img src="assets/pipeline.png" width="65%" height="65%"/>
 </div>
 
+## 📦 Dataset
+**[👉 Access the MEBench dataset 👈](https://github.com/tl2309/SRAG/tree/main/MEBench)**
+
+## 🔧Evaluate 
 
 
 
