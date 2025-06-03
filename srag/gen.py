@@ -1,10 +1,6 @@
 # -*- encoding: utf-8 -*-
-# @Time : 2024/9/13 0:49
-# @Author: TLIN
 
 # import sys
-#
-# sys.path.append('/home/linteng/SGraphQA/wikirag')
 
 from wikirag.qageneration import AutoQA
 from wikirag.transformation import Transfer
