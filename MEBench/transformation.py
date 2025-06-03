@@ -1,6 +1,5 @@
 # -*- encoding: utf-8 -*-
-# @Time : 2024/9/13 0:35
-# @Author: TLIN
+
 
 from txtai import LLM
 import sqlite3
