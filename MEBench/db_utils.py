@@ -1,6 +1,4 @@
 # -*- encoding: utf-8 -*-
-# @Time : 2024/10/16 18:30
-# @Author: TLIN
 
 import pandas
 import sqlite3
@@ -35,6 +33,6 @@ class dbutils(object):
             # print(rows)
             return columns, rows
         except pandas.errors.DatabaseError as e:
-            print("数据库操作出错:", e)
+            print("Database error:", e)
             print("An error occurred:", e)
             return 'Wrong'
