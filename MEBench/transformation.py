@@ -8,7 +8,7 @@ from tqdm import tqdm
 import os
 import json
 
-llm = LLM("/home/linteng/Mistral-7B-OpenOrca-AWQ")
+llm = LLM("/home/Mistral-7B-OpenOrca-AWQ")
 
 def count_jsonl_lines(file_path):
     with open(file_path, 'r') as file:
