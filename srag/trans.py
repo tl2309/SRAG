@@ -1,6 +1,5 @@
 # -*- encoding: utf-8 -*-
-# @Time : 2024/8/27 23:03
-# @Author: TLIN
+
 import pandas
 from txtai import LLM
 import sqlite3
@@ -14,7 +13,7 @@ import os
 import pandas as pd
 import json
 
-llm = LLM("/home/linteng/Mistral-7B-OpenOrca-AWQ")
+llm = LLM("/home/Mistral-7B-OpenOrca-AWQ")
 
 
 def get_wikidata_id(search_term):
@@ -519,7 +518,7 @@ def csv_sqltool(table, sql_query):
 
 
 def gen_answer(path):
-    idx = 7990
+    idx = 0
     fout_qa = open(os.path.join(path, 'multi_entities_QA.jsonl'), 'a')
     with open(os.path.join(path, 'multi_entities_query.jsonl'), 'r') as file:
         # Read each line in the file
@@ -547,10 +546,10 @@ def gen_answer(path):
 def GPT(prompt: str, model: str, **kwargs):
     import requests
     import json
-    url = "https://gpt-api.hkust-gz.edu.cn/v1/chat/completions"
+    url = "your API url"
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "9c77caa0882f46a19381a4796a641181556d0fe4e6c145bdb3717f5936207cae"
+        "Authorization": "Your key"
     }
     data = {
         "model": model,
