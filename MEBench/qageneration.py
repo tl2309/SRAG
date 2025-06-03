@@ -77,7 +77,7 @@ def csv_sqltool(table, sql_query):
         # print(rows)
         return columns, rows
     except pandas.errors.DatabaseError as e:
-        print("数据库操作出错:", e)
+        print("Database Error:", e)
         print("An error occurred:", e)
         return 'Wrong'
 
