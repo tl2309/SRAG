@@ -1,6 +1,5 @@
 # -*- encoding: utf-8 -*-
-# @Time : 2024/9/13 0:33
-# @Author: TLIN
+
 
 from wikirag.qageneration import AutoQA
 # from wikirag.transformation import Transfer
