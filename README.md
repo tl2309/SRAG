@@ -13,5 +13,5 @@ This repository contains code for our paper. We propose Structured RAG (SRAG) â€
 
 ## ðŸ”§Evaluate 
 
-
+evaluate.py
 
