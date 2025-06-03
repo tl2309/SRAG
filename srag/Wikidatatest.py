@@ -1,6 +1,4 @@
 # -*- encoding: utf-8 -*-
-# @Time : 2024/8/1 20:13
-# @Author: TLIN
 
 from SPARQLWrapper import SPARQLWrapper, JSON
 
