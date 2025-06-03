@@ -1,6 +1,4 @@
 # -*- encoding: utf-8 -*-
-# @Time : 2024/9/13 0:30
-# @Author: TLIN
 
 from typing import List
 import requests
