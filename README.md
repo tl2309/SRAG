@@ -1,7 +1,7 @@
 # SRAG
 
 ## 👀Overview
-This repository contains code for our paper。
+This repository contains code for our paper.
 
 **SRAG pipeline**
 <div align="center">
