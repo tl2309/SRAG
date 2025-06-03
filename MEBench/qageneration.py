@@ -1,6 +1,5 @@
 # -*- encoding: utf-8 -*-
-# @Time : 2024/9/13 1:11
-# @Author: TLIN
+
 from llm.gpt import GPT
 
 import pandas
