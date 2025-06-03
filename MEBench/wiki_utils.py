@@ -1,9 +1,6 @@
 # -*- encoding: utf-8 -*-
-# @Time : 2024/9/12 23:29
-# @Author: TLIN
 
 import requests
-
 
 class wikiutils(object):
 
